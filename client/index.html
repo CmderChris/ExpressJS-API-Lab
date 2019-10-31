@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ExpressJS API Lab</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="text-center">Chirper</h1>
+    
+    <main class="container my-2">
+        <section class="row my-2 justify-content-center">
+            <div class="col-md-10">
+                <form class="form-group p-3 shadow border">
+                    <label>Name:</label>
+                    <input type="text" class="form-control my-1 shadow-sm" name="name" />
+                    <label>Message:</label>
+                    <input type="text" class="form-control my-1 shadow-sm" name="message" />
+                    <button class="btn btn-info btn-block w-75 mx-auto mt-3 shadow" id="chirpSubmit">Chirp!</button>
+                </form>
+            </div>
+        </section>
+        <section class="row my-2 justify-content-center" id="cards"></section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
