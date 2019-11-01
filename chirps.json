@@ -1,1 +1,11 @@
-{"nextid":45}
+{
+    "0": {
+        "name": "Chris",
+        "message": "i hate sand"
+    },
+    "1": {
+        "name": "luke",
+        "message": "shit"
+    },
+    "nextid": 2
+}
